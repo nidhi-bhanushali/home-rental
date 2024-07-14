@@ -1,0 +1,27 @@
+{
+  "pages": [
+    { "name": "Home V1", "link": "#" },
+    { "name": "Home V2", "link": "#" },
+    { "name": "Home V3", "link": "#" },
+    { "name": "About 1", "link": "#" },
+    { "name": "About 2", "link": "#" },
+    { "name": "Blog 1", "link": "#" },
+    { "name": "Blog 2", "link": "#" },
+    { "name": "Help Center V1", "link": "#" }
+  ],
+  "utilityPages": [
+    { "name": "Sign In", "link": "#" },
+    { "name": "Sign Up", "link": "#" },
+    { "name": "Forgot Password", "link": "#" },
+    { "name": "Reset Password", "link": "#" },
+    { "name": "Email Configuration", "link": "#" },
+    { "name": "Coming Soon", "link": "#" },
+    { "name": "Style Guide", "link": "#" }
+  ],
+  "extraLinks": [
+    { "name": "Help Center V2", "link": "#" },
+    { "name": "FAQ V1", "link": "#" },
+    { "name": "FAQ V2", "link": "#" },
+    { "name": "FAQ Detail", "link": "#" }
+  ]
+}
