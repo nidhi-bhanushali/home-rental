@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
-import propertyData from "../helpers/propertyData";
+import propertyData from "../mockDataStore/propertyData";
 import { Button } from "./ui/button";
 import {
   Card,
@@ -18,7 +18,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Bath, BedDouble, Ruler } from "lucide-react";
 import Image from "next/image";
 
 const CardComponent = ({ property }) => (
@@ -49,7 +48,7 @@ const CardComponent = ({ property }) => (
       <div className="flex w-full border-t-[1px]">
         <div className="flex flex-1 py-4 justify-center items-center">
           <Image
-            src="./bed.svg"
+            src="/bed.svg"
             className="mr-1"
             alt="bedrooms"
             width={20}
@@ -59,7 +58,7 @@ const CardComponent = ({ property }) => (
         </div>
         <div className="flex flex-1 py-4 justify-center border-x-[1px] items-center">
           <Image
-            src="./bathtub.svg"
+            src="/bathtub.svg"
             className="mr-1"
             alt="bathrooms"
             width={20}
@@ -69,7 +68,7 @@ const CardComponent = ({ property }) => (
         </div>
         <div className="flex flex-1 py-4 justify-center items-center">
           <Image
-            src="./area.svg"
+            src="/area.svg"
             className="mr-1"
             alt="area"
             width={20}

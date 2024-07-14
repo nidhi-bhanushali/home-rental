@@ -1,0 +1,68 @@
+[
+  {
+    "property_id": 1,
+    "address": "2578 Folsom street, san francisco, CA, 94110",
+    "rent": 1200,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 1500,
+    "description": "Beautiful 3-bedroom house with spacious living area and modern kitchen.",
+    "available": true,
+    "image": "./home1.png"
+  },
+  {
+    "property_id": 2,
+    "address": "2578 Folsom street, san francisco, CA, 94110",
+    "rent": 2500,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 900,
+    "description": "Modern apartment in downtown Chicago with stunning city views.",
+    "available": false,
+    "image": "./home2.png"
+  },
+  {
+    "property_id": 3,
+    "address": "2578 Folsom street, san francisco, CA, 94110",
+    "rent": 1800,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 2000,
+    "description": "Spacious family home with large backyard and close to schools.",
+    "available": true,
+    "image": "./home3.svg"
+  },
+  {
+    "property_id": 4,
+    "address": "2578 Folsom street, san francisco, CA, 94110",
+    "rent": 2200,
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "area": 1600,
+    "description": "Charming house with a cozy fireplace and modern amenities.",
+    "available": false,
+    "image": "./home2.png"
+  },
+  {
+    "property_id": 5,
+    "address": "2578 Folsom street, san francisco, CA, 94110",
+    "rent": 1300,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 1100,
+    "description": "Conveniently located apartment with updated kitchen and bathrooms.",
+    "available": true,
+    "image": "./home1.png"
+  },
+  {
+    "property_id": 6,
+    "address": "303 Birch St, Rockford, IL, 61101",
+    "rent": 1600,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 1400,
+    "description": "Cozy home with a spacious backyard and close to parks.",
+    "available": true,
+    "image": "./home3.svg"
+  }
+]

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { useEffect, useState } from "react";
-import footerLinks from "../helpers/footerLinks";
+import footerLinks from "../mockDataStore/footerLinks";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-5 md:px-20 flex flex-col-reverse md:flex-row justify-between">
         <div className="lg:flex lg:flex-col justify-center w-[305px] self-start mt-8 md:mt-0">
           <Image
-            src="./logo.svg"
+            src="/logo.svg"
             alt="Logo"
             width={150}
             height={50}
@@ -27,14 +27,14 @@ const Footer = () => {
               className="bg-[#FFFFFF33] w-10 h-10 rounded-[10px] flex items-center justify-center"
               href="https://facebook.com"
             >
-              <Image src="./globe.svg" alt="Globe" width={24} height={24} />
+              <Image src="/globe.svg" alt="Globe" width={24} height={24} />
             </Link>
             <Link
               className="bg-[#FFFFFF33] w-10 h-10 rounded-[10px] flex items-center justify-center"
               href="https://facebook.com"
             >
               <Image
-                src="./facebook.svg"
+                src="/facebook.svg"
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -44,20 +44,20 @@ const Footer = () => {
               className="bg-[#FFFFFF33] w-10 h-10 rounded-[10px] flex items-center justify-center"
               href="https://twitter.com"
             >
-              <Image src="./twitter.svg" alt="Twitter" width={24} height={24} />
+              <Image src="/twitter.svg" alt="Twitter" width={24} height={24} />
             </Link>
             <Link
               className="bg-[#FFFFFF33] w-10 h-10 rounded-[10px] flex items-center justify-center"
               href="https://google.com"
             >
-              <Image src="./google.svg" alt="Google" width={24} height={24} />
+              <Image src="/google.svg" alt="Google" width={24} height={24} />
             </Link>
             <Link
               className="bg-[#FFFFFF33] w-10 h-10 rounded-[10px] flex items-center justify-center"
               href="https://linkedin.com"
             >
               <Image
-                src="./linkedin.svg"
+                src="/linkedin.svg"
                 alt="Linkedin"
                 width={24}
                 height={24}

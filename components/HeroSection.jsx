@@ -19,14 +19,14 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { ChevronDown, Menu, Search } from "lucide-react";
 import { Input } from "./ui/input";
+import backgroundImage from "../public/background-image.png";
 
 const Hero = () => {
   return (
     <div
       className="relative h-fit md:h-screen"
       style={{
-        background:
-          "url('/background-image.svg') center center / cover no-repeat",
+        background: `url(${backgroundImage.src}) center center / cover no-repeat`,
       }}
     >
       <div className="py-5 lg:px-20 px-5 flex justify-between">

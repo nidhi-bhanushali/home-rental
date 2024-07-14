@@ -1,8 +1,9 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect, useRef } from "react";
 import { Card, CardContent } from "./ui/card";
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-import { testimonialData } from "@/helpers/constants";
+import { testimonialData } from "@/mockDataStore/constants";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "./ui/avatar";
 import Autoplay from "embla-carousel-autoplay";
@@ -31,6 +32,7 @@ const TestimonialCard = ({ testimonial, api, setApi }) => {
             {testimonial.review}
             <img
               src="./quotes.svg"
+              alt="quotes"
               className="absolute lg:w-[71px] lg:h-[60px] h-[41px] w-[35px] opacity-[30%] top-[-12%] lg:top-[-30px] lg:left-[-50px]"
             />
           </span>
